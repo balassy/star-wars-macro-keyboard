@@ -10,10 +10,6 @@ This is a Star Wars theme inspired device that you can connect to your computer 
 - 2 additional LEDs 
 - 3D-printable case
 
-## Getting Started
-
-Coming soon...
-
 ## Configuration
 
 In the source code you can define what keycodes will be sent when the buttons are pressed. Check for the `Key definitions` section and update the values for your needs.
@@ -65,17 +61,46 @@ Notes:
 
 You can see how I did the wiring in the [photos](./photos) folder.
 
-## 3D-Printable Case
+## 3D Printable Case
 
-Coming soon...
+![](./models/render.png)
+
+### Materials
+
+You will need the following filament colors if you do not want to paint them:
+- **Grey** for the case bottom and the top and the button frames
+- **Matte Black** for the top frames
+- **Glossy black** for the round greeblie
+- **White** and **blue** for the button caps and for the stripes
+- **Transparent red** for the armed LED cap
+- **Silver** for the data port greeblie's outer rims
+- **Gold** for the data port greeblie's inner shaft
+
+Needless to say you can choose different colors or paint the parts.
+
+### Printing
+
+The printable models are available on Thingiverse (link coming soon). I designed the model in Fusion 360 and published both the source files and exported them in STEP format so you can customize it to your needs.
+
+No parts require supports, but you will to rotate some parts upside down and lay the case bottom part to the print bed.
+
+You can print most parts with 0.3mm layer height, but I recommend printing the data port outer rims and the case bottom with 0.2mm. Because the parts are designed to snap fit to each other make sure your first layer width is dialed in correctly or configure [elephant foot compensation](https://help.prusa3d.com/en/article/elephant-foot-compensation_114487).
+
+### Post processing
+
+The 3D printed parts are designed fit tight tolerance, they should snap fit together, though you may need a little glue to keep them in place.
+
+The button caps are designed with a slightly larger tolerance, but if you still experience some friction when pressing the buttons you can sand their sides.
 
 ## Labels and Stripes
 
 The labels are not part of the 3D models, I used [David Occhino's free Arubesh font](http://davidocchino.com/portfolio/typography/aurebesh.html) to create them with my Silhouette Cameo and matte black vinyl. 
 
+![](./labels/make.png)
+
 Other sources for the Arubesh font:
-- [WikiPedia article](https://en.wikipedia.org/wiki/Languages_in_Star_Wars) and [SVG file](https://en.wikipedia.org/wiki/Languages_in_Star_Wars#/media/File:Star-Wars-aurek-besh-alphabet-chart.svg)
-- [WookieePedia article](https://starwars.fandom.com/wiki/Aurebesh)
+- [Wikipedia article](https://en.wikipedia.org/wiki/Languages_in_Star_Wars) and [SVG file](https://en.wikipedia.org/wiki/Languages_in_Star_Wars#/media/File:Star-Wars-aurek-besh-alphabet-chart.svg)
+- [Wookieepedia article](https://starwars.fandom.com/wiki/Aurebesh)
 - [Arubesh Translator](https://lingojam.com/AurebeshTranslator)
 - [Learn Arubesh](https://aurebesh.org/)
 

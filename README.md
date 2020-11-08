@@ -49,6 +49,8 @@ The following image shows how the buttons and LEDs are named both in the wiring 
 
 ![](./photos/external-with-labels.jpg)
 
+Note that not all parts are functional, some are [greeblies](https://en.wikipedia.org/wiki/Greeble).
+
 ## Wiring
 
 You can see the wiring in the [Fritzing file](./wiring/star-wars-macro-keyboard.fzz) in the `wiring` folder:
@@ -61,11 +63,13 @@ Notes:
 - You may need to adjust the resistors' values to the LEDs and the Arduino variant you use.
 - The `LED V1` and `LED v2` must be connected to PWM ports to be dimmable from code.
 
+You can see how I did the wiring in the [photos](./photos) folder.
+
 ## 3D-Printable Case
 
 Coming soon...
 
-## Texts
+## Labels
 
 
 

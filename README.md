@@ -1,6 +1,6 @@
 # Star Wars Macro Keyboard
 
-This is a Star Wars theme inspired device that you can connect to your computer and it will act as a HID keyboard.
+This is a Star Wars theme inspired device that you can connect to your computer and it will act as a fully functional HID keyboard.
 
 ![](./photos/external.jpg)
 
@@ -80,9 +80,9 @@ Needless to say you can choose different colors or paint the parts.
 
 ### Printing
 
-The printable models are available on Thingiverse (link coming soon). I designed the model in Fusion 360 and published both the source files and exported them in STEP format so you can customize it to your needs.
+**The 3D printable models are available on [Thingiverse](https://www.thingiverse.com/thing:4647245).** I designed the model in Fusion 360 and published both the source files and exported them in STEP format so you can customize it to your needs.
 
-No parts require supports, but you will to rotate some parts upside down and lay the case bottom part to the print bed.
+No parts require supports, but you have to rotate some parts upside down and lay the case bottom part to the print bed.
 
 You can print most parts with 0.3mm layer height, but I recommend printing the data port outer rims and the case bottom with 0.2mm. Because the parts are designed to snap fit to each other make sure your first layer width is dialed in correctly or configure [elephant foot compensation](https://help.prusa3d.com/en/article/elephant-foot-compensation_114487).
 
@@ -94,7 +94,7 @@ The button caps are designed with a slightly larger tolerance, but if you still 
 
 ## Labels and Stripes
 
-The labels are not part of the 3D models, I used [David Occhino's free Arubesh font](http://davidocchino.com/portfolio/typography/aurebesh.html) to create them with my Silhouette Cameo and matte black vinyl. 
+The labels are not part of the 3D models, I used [David Occhino's free Arubesh font](http://davidocchino.com/portfolio/typography/aurebesh.html) to create them with my Silhouette Cameo and matte black vinyl. You can find the files in the [labels](./labels) folder.
 
 ![](./labels/make.png)
 

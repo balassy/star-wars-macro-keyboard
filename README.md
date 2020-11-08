@@ -80,7 +80,7 @@ Needless to say you can choose different colors or paint the parts.
 
 ### Printing
 
-**The 3D printable models are available on [Thingiverse](https://www.thingiverse.com/thing:4647245).** I designed the model in Fusion 360 and published both the source files and exported them in STEP format so you can customize it to your needs.
+**The 3D printable models are available on [Thingiverse](https://www.thingiverse.com/thing:4647245) and also on [PrusaPrinters](https://www.prusaprinters.org/prints/45559-star-wars-macro-keyboard).** I designed the model in Fusion 360 and published both the source files and exported them in STEP format so you can customize it to your needs.
 
 No parts require supports, but you have to rotate some parts upside down and lay the case bottom part to the print bed.
 

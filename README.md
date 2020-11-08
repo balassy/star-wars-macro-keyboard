@@ -69,9 +69,17 @@ You can see how I did the wiring in the [photos](./photos) folder.
 
 Coming soon...
 
-## Labels
+## Labels and Stripes
 
+The labels are not part of the 3D models, I used [David Occhino's free Arubesh font](http://davidocchino.com/portfolio/typography/aurebesh.html) to create them with my Silhouette Cameo and matte black vinyl. 
 
+Other sources for the Arubesh font:
+- [WikiPedia article](https://en.wikipedia.org/wiki/Languages_in_Star_Wars) and [SVG file](https://en.wikipedia.org/wiki/Languages_in_Star_Wars#/media/File:Star-Wars-aurek-besh-alphabet-chart.svg)
+- [WookieePedia article](https://starwars.fandom.com/wiki/Aurebesh)
+- [Arubesh Translator](https://lingojam.com/AurebeshTranslator)
+- [Learn Arubesh](https://aurebesh.org/)
+
+You can create the stripes either with 3D printer, vinyl cutter or you can simply paint them.
 
 ## Acknowledgements
 

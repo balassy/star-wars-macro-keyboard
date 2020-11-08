@@ -30,13 +30,44 @@ This device acts as a HID keyboard when connected to your computer via USB. If t
 
 Safety switch to the rescue! If the safety switch is not pressed the keyboard will not send any keycodes to your computer, but keeps the code running on the Arduino, so you can keep it powered and upload new code to it.
 
+## Parts List
+
+- 1pc **Arduino Pro Micro** - do NOT use other Arduino boards as this is the one that has the `ATmega32U4` chip that provides the required USB capabilities. This board is available in two variants, I used the 5V version.
+- 1pc **red LED**
+- 2pcs **white LEDs**
+- 3pcs **220Ω resistors** - you may need different values if you use different LEDs or the 3.3V Arduino Pro Micro
+- 5pcs 12×12×7.3mm tactile **momentary button**
+- 1pc 8×8mm **push-button switch**
+- 5pcs M3x5 **screws** (4 for the cover, 1 for fixing the Arduino board)
+- Wires
+- Glue
+- Optional: if you do not want to solder the wires directly to the Arduino you can use **right angle pin headers** and **Dupont connectors**. I used jumper wires.
+
+## Naming
+
+The following image shows how the buttons and LEDs are named both in the wiring diagram and in the code:
+
+![](./photos/external-with-labels.jpg)
+
 ## Wiring
 
-Coming soon...
+You can see the wiring in the [Fritzing file](./wiring/star-wars-macro-keyboard.fzz) in the `wiring` folder:
+
+![](./wiring/breadboard-wiring.png)
+
+Notes:
+- The `H1`-`H3` (horizontal) and the `V1`-`V2` (vertical) buttons are momentary buttons.
+- The `Armed button` is a latching switch.
+- You may need to adjust the resistors' values to the LEDs and the Arduino variant you use.
+- The `LED V1` and `LED v2` must be connected to PWM ports to be dimmable from code.
 
 ## 3D-Printable Case
 
 Coming soon...
+
+## Texts
+
+
 
 ## Acknowledgements
 

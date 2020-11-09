@@ -19,6 +19,9 @@ Useful sources:
 - [usb_hid_keys.h](https://gist.github.com/MightyPork/6da26e382a7ad91b5496ee55fdc73db2)
 - [USB HID Usage Table](https://www.freebsddiary.org/APC/usb_hid_usages.php)
 - [USB HID Usage Tables specification](https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf)
+- [Arduino HID Library Reference](https://www.arduino.cc/en/Reference/HID)
+- [NicoHood HID Project](https://github.com/NicoHood/HID)
+- [PluggableUSB and PluggableHID howto](https://github.com/arduino/Arduino/wiki/PluggableUSB-and-PluggableHID-howto) low-level
 
 ## Safety Switch
 
@@ -28,7 +31,7 @@ Safety switch to the rescue! If the safety switch is not pressed the keyboard wi
 
 ## Parts List
 
-- 1pc **Arduino Pro Micro** - do NOT use other Arduino boards as this is the one that has the `ATmega32U4` chip that provides the required USB capabilities. This board is available in two variants, I used the 5V version.
+- 1pc **Arduino Pro Micro** - it has a `ATmega32U4` chip that provides the required USB capabilities. This board is available in two variants, I used the 5V version.
 - 1pc **red LED**
 - 2pcs **white LEDs**
 - 3pcs **220Ω resistors** - you may need different values if you use different LEDs or the 3.3V Arduino Pro Micro
@@ -105,6 +108,22 @@ Other sources for the Arubesh font:
 - [Learn Arubesh](https://aurebesh.org/)
 
 You can create the stripes either with 3D printer, vinyl cutter or you can simply paint them.
+
+## Lessons Learned
+
+It is very easy to create a HID device with the Arduino Pro Micro, though sometimes this board has a unique personality and reset is tricky:
+  - [Pro Micro Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/troubleshooting-and-faq#ts-reset) with a Reset to Bootloader section.
+  - [Getting Started with Arduino Micro](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro#toc6) with an Uploading Code section at the very beginning.
+
+When you create a HID device having a physical button that prevents the device to send message to your computer is a **MUST**. Other updating the device can be a PITA if your code is buggy.
+
+The tactile momentary button is not ideal for a keyboard. It is not as comfortable as real keyboard keys and the box makes its clicking sound much louder.
+  - [MechanicalKeyboards for all the Click and None of the Clack](https://www.reddit.com/r/MechanicalKeyboards/wiki/switch_suppliers#wiki_cherry_mx_switches) guide on Reddit
+  - [Mechanical Keyboard Guide](https://www.wasdkeyboards.com/mechanical-keyboard-guide#comparison)
+
+You can spend many, many, many hours figuring out how to dress your thing Star Wars style using shapes, stripes and of course greeblies.
+
+External USB-connected numberic keypads are surprisingly cheap.
 
 ## Acknowledgements
 

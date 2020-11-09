@@ -111,11 +111,15 @@ You can create the stripes either with 3D printer, vinyl cutter or you can simpl
 
 ## Lessons Learned
 
-It is very easy to create a HID device with the Arduino Pro Micro, though sometimes this board has a unique personality and reset is tricky:
+It is very easy to create a HID device with the Arduino Pro Micro and there are many tutorials out there to get started:
+- [Turn your ProMicro into a USB Keyboard/Mouse](https://www.sparkfun.com/tutorials/337) SparkFun tutorial
+- [Custom Macro Mechanical Keypad](https://www.instructables.com/Custom-Macro-Mechanical-Keypad/) with an OLED display.
+
+Interestingly this board has a unique personality and reset is tricky:
   - [Pro Micro Hookup Guide](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide/troubleshooting-and-faq#ts-reset) with a Reset to Bootloader section.
   - [Getting Started with Arduino Micro](https://www.arduino.cc/en/Guide/ArduinoLeonardoMicro#toc6) with an Uploading Code section at the very beginning.
 
-When you create a HID device having a physical button that prevents the device to send message to your computer is a **MUST**. Other updating the device can be a PITA if your code is buggy.
+When you create a HID device having a physical button that prevents the device to send messages to your computer is a **MUST**. Otherwise updating the device can be a PITA if your code is buggy.
 
 The tactile momentary button is not ideal for a keyboard. It is not as comfortable as real keyboard keys and the box makes its clicking sound much louder.
   - [MechanicalKeyboards for all the Click and None of the Clack](https://www.reddit.com/r/MechanicalKeyboards/wiki/switch_suppliers#wiki_cherry_mx_switches) guide on Reddit
